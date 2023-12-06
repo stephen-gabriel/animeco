@@ -496,16 +496,16 @@ body {
   text-align: center;
 }
 
-.footer-logo:link,
-.footer-logo:visited {
+.footer-main-logo:link,
+.footer-main-logo:visited {
   text-decoration: none;
   color: #fff;
   font-size: 3rem;
   font-weight: 900;
 }
 
-.footer-logo:hover,
-.footer-logo:active {
+.footer-main-logo:hover,
+.footer-main-logo:active {
   color: #fff;
 }
 
@@ -542,8 +542,9 @@ body {
 .footer-logo-link:link,
 .footer-logo-link:visited {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.4rem;
   color: #fff;
+  transition: all 0.3s;
 }
 
 .footer-logo-link:hover,
@@ -552,11 +553,8 @@ body {
 }
 
 .footer-logo {
-  font-size: 2rem;
-}
-
-.footer-logo:hover {
-  color: #ccc;
+  height: 2.4rem;
+  width: 2.4rem;
 }
 
 /* - Font Sizes (px)
